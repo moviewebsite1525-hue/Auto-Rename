@@ -12,27 +12,27 @@ id_pattern = re.compile(r'^.\d+$')
 # --
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID    = os.environ.get("API_ID", "38484181")
+    API_HASH  = os.environ.get("API_HASH", "004516cc7835d8a332e1cb5717393ff3")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8977807756:AAF3-81PNNEttvNgg4xSM5Gf0grjCK3kFAM")
     PORT = os.environ.get("PORT", "8980")
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "RexBots")     
-    DB_URL  = os.environ.get("DB_URL", "")
+    DB_NAME = os.environ.get("DB_NAME", "animedotnet")     
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://animearc1525:ifx9pVcA9qSkyjhI@cluster0.ybttjlc.mongodb.net/?appName=Cluster0")
  
     # other configs
-    ADMIN_URL = "https://t.me/adityaabhinav"
-    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002257657458")
+    ADMIN_URL = "@Yuta_Okkotsu_25"
+    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1003910646225")
     DUMP = True
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://ibb.co/Cs0zsrCn")
-    LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://ibb.co/RGx4RmDg")
-    OWNER_ID = int(os.environ.get("OWNER_ID", "6701907262"))
-    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002871570975"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
-    FSUB_PIC = os.environ.get("FSUB_PIC", "")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/wZwz7yH7/nv6ydoa-S.jpg")
+    LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://i.ibb.co/wZwz7yH7/nv6ydoa-S.jpg")
+    OWNER_ID = int(os.environ.get("OWNER_ID", "8337976117"))
+    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1003958099307"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003968985278"))
+    FSUB_PIC = os.environ.get("FSUB_PIC", "https://i.ibb.co/wZwz7yH7/nv6ydoa-S.jpg")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Auto_Rename_xyz_Bot")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
